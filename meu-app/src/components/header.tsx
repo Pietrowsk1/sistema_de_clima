@@ -10,7 +10,7 @@ const links = [
 export default function Header() {
   return (
     <header className="flex items-center justify-between px-6 py-5">
-      <span className="text-2xl font-semibold">C&T</span>
+      <span className="font-display text-2xl font-semibold">C&T</span>
 
       <nav className="hidden gap-8 md:flex">
         {links.map((link) => (
