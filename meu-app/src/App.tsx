@@ -1,13 +1,5 @@
-import { Route, Routes } from "react-router";
-import AppLayout from "./components/AppLayout";
-import Home from "./pages/Home";
+import AppRoutes from "./routes/routes";
 
 export default function App() {
-  return (
-    <Routes>
-      <Route element={<AppLayout />}>
-        <Route path="/" element={<Home />} />
-      </Route>
-    </Routes>
-  );
+  return <AppRoutes />;
 }

@@ -4,3 +4,7 @@
     --font-sans: "Manrope", sans-serif;
     --font-display: "Fraunces", serif;
 }
+
+body {
+    @apply min-h-screen bg-linear-to-b from-sky-700 to-slate-950 text-white;
+}
